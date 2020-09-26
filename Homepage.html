@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forum</title>
+    <script type="text/javascript" src="validate_registration.js"></script>
+    <link rel= "stylesheet" type = "text/css" href = "mystyle1.css" >
+    <!--BOOTSTRAP LINKS
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" hreojwejfujegrf="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->
+</head>
+<body>
+<!-- Navigation -->
+<nav class="w3-barw3-black">
+    <a href="homepage.html" class="w3-button w3-bar-item"> Home</a>
+    <a href="#login" class="w3-button w3-bar-item"> Login</a>
+    <a href="register.html" class="w3-button w3-bar-item"> Register</a>
+    <a href="profile.html" class="w3-button w3-bar-item"> Profile</a>
+    <a href="admin.html" class="w3-button w3-bar-item"> Admin</a>
+    <a href="product.html" class="w3-button w3-bar-item"> Product</a>
+    <a href="cart.html" class="w3-button w3-bar-item"> Cart</a>
+</nav>
+<!-- image and header -->
+<h1 style= "color: blue"> Welcome to  My Store</h1>
+<section id = "login">
+<h2>Login</h2>
+    <form name="SignUp" onsubmit ="return SignUpForm()" method="post">
+        <table>
+           <!-- <tr><td>Email: </td><td> <input type="text" name="email" size="50" /></td></tr> -->
+            <tr><td style="color:red">Username: </td><td > <input type="text" name="uname" size="30" /></td></tr>
+            <tr><td style="color:red">Password: </td><td> <input type="password" name="pswd" size="30" /></td></tr>
+           <!-- <tr><td>Confirm Password: </td><td> <input type="password" name="pswdr" size="30" /></td></tr> -->
+        </table>
+
+        <p><input type="submit" name="SignUp" value="Log In" />
+            <input type="reset" name="Reset" value="Reset" /></p>
+    </form>
+</section>
+
+<footer>
+<p><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww2.cs.uregina.ca%2F~eluemeln%2F">
+  Validate HTML5</a></p>
+  @ Alright reserved 2018
+  module 2.0
+</footer>
+
+</body>
+</html>
